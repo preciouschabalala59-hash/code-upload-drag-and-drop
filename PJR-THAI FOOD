@@ -1,0 +1,320 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:#ffffff;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:#8fd694;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* HERO SECTION */
+
+.hero{
+    background:url("images/noodles.jpg") center/cover no-repeat;
+    height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h1{
+    background:rgba(0,0,0,0.4);
+    padding:20px;
+    border-radius:8px;
+}
+
+/* CONTENT */
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+/* PRODUCTS */
+
+.food-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.food-card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    text-align:center;
+}
+
+.food-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+.food-card h3{
+    padding:10px;
+}
+
+/* CONTACT */
+
+.contact-info{
+    line-height:2;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#8fd694;
+    text-align:center;
+    padding:15px;
+    color:white;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    header{
+        flex-direction:column;
+    }
+
+    nav{
+        margin-top:10px;
+    }
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+<title>About - PJR Thai Food</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">PJR Thai Food</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+
+<h2>About the Owner</h2>
+
+<p>
+I, Precious Chabalala, the owner of PJR Thai Food, discovered many delicious Thai dishes while living in Thailand. During my time there I explored different regions and experienced the rich culture and traditions behind Thai cooking.
+</p>
+
+<p>
+I learned a lot about how to prepare these delicious dishes by observing local chefs, visiting markets, and understanding the authentic ingredients used in Thai cuisine.
+</p>
+
+<p>
+Inspired by this experience, I decided to open a Thai restaurant in South Africa so that I can share the beautiful dishes I discovered in Thailand with people in my home country.
+</p>
+
+<p>
+PJR Thai Food focuses on authenticity, quality ingredients, and creating a warm dining experience for every customer.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 PJR Thai Food</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - PJR Thai Food</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">PJR Thai Food</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<div class="contact-info">
+
+<p>Email: preciouschabalala59@gmail.com</p>
+
+<p>Phone: 0678121319</p>
+
+<p>
+Visit PJR Thai Food to experience authentic Thai cuisine made with passion and tradition.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 PJR Thai Food</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>PJR Thai Food</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">PJR Thai Food</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Authentic Thai Flavours in South Africa</h1>
+</section>
+
+<div class="container">
+
+<h2>Welcome to PJR Thai Food</h2>
+
+<p>
+PJR Thai Food brings the authentic taste of Thailand to South Africa. 
+Our restaurant offers a variety of traditional Thai dishes prepared with 
+fresh ingredients and traditional cooking techniques.
+</p>
+
+<p>
+Our goal is to provide customers with an unforgettable dining experience
+by sharing the beautiful flavours and culture of Thai cuisine.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 PJR Thai Food</p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services - PJR Thai Food</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">PJR Thai Food</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+
+<h2>Our Thai Dishes</h2>
+
+<div class="food-grid">
+
+<div class="food-card">
+<img src="images/padthai.jpg">
+<h3>Pad Thai</h3>
+<p>Stir fried noodles with vegetables and traditional Thai sauce.</p>
+</div>
+
+<div class="food-card">
+<img src="images/curry.jpg">
+<h3>Thai Green Curry</h3>
+<p>A spicy coconut curry with herbs and fresh vegetables.</p>
+</div>
+
+<div class="food-card">
+<img src="images/tomyum.jpg">
+<h3>Tom Yum Soup</h3>
+<p>Famous Thai soup with a spicy and sour flavour.</p>
+</div>
+
+<div class="food-card">
+<img src="images/noodles.jpg">
+<h3>Thai Noodles</h3>
+<p>Traditional Thai noodles with herbs and authentic spices.</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 PJR Thai Food</p>
+</footer>
+
+</body>
+</html>
